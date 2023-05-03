@@ -1,0 +1,15 @@
+.numbers {
+    text-align: center;
+}
+
+.number {
+    display: inline-block;
+    margin: 0 13px;
+
+    width: 50px;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    border-radius: 30px;
+
+    background-color: pink;
+}
