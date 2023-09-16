@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#logo {
+  width: 100px;
+  height: 30px;
+  font: bolder
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+}
+
+#feed-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+.nav-button {
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  opacity: 0.7;
+}
+
+.post {
+  background-color: #fff;
+  border: 0.5px solid #dbdbdb;
+  padding: 10px;
+  margin: 10px;
+  width: 450px;
+  transition: opacity 0.3s;
+}
+
+.post:hover {
+  opacity: 0.7;
+}
+
+.post-user {
+  font-weight: bold;
+}
+
+.post-description {
+  margin-top: 10px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.post-likes {
+  margin-top: 10px;
+}
+
+#btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fb3958;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+}
