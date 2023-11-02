@@ -1,0 +1,14 @@
+CREATE TABLE `students` (
+`name` VARCHAR(15) NOT NULL,
+`ID` INT NOT NULL AUTO_INCREMENT,
+`admission_year` INT NOT NULL,
+`major` VARCHAR(20) NOT NULL,
+`individual_number` INT NOT NULL,
+`phone_number` VARCHAR(15) NOT NULL,
+`address` VARCHAR(100) NOT NULL,
+`total_credit` INT NOT NULL DEFAULT 0,
+`GPA` DOUBLE NOT NULL DEFAULT 0.0,
+`attending` TINYINT(1) NOT NULL DEFAULT 1,
+PRIMARY KEY (`id`)) 
+ENGINE=InnoDB DEFAULT 
+CHARSET=utf8;
